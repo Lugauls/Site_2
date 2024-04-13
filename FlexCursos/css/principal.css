@@ -1,0 +1,105 @@
+:root{
+    --black: #090809;
+    --primary: #d6f8d3;
+    --secondary: #9ddef8;
+    --light: #F4796B;
+    --other1: #F4998D;
+    --other: #f5b3aa;
+    --bg-color: #f4cac5;
+    --bg-escurinha: #201b2c
+}
+
+.nav-principal{
+    background-color: var(--primary);
+}
+
+#slides{
+    max-height: 500px;
+    overflow: hidden;
+  }
+  .carousel-item img{
+    height: 100%;  
+    width: 100%;  
+    position:relative;
+    top:.5;
+  }
+
+.letras-pretas{
+    color: #090809;
+}
+
+.carrosel{
+  margin-left: 175px;
+}
+
+.bg-bege {
+  background-color: #f5f5dc;}
+
+.alinhar-texto{
+  text-align: center;
+}
+
+.footer-background {
+  background-color: #f5f5f5; /* Cor de fundo semelhante à da Udemy */
+}
+.footer-links {
+  color: #007791; /* Cor de link semelhante à da Udemy */
+}
+.footer-links:hover {
+  text-decoration: none;
+  color: #00566c; /* Escurece um pouco ao passar o mouse */
+}
+
+.esmeralda{
+  background-color: #50C878;
+  color: white;
+}
+
+.diamente{
+  background-color: #0EBFE9;
+  color: black;
+}
+
+.texto-branco{
+  color: white;
+}
+
+.borda-carrossel{
+  border-radius: 50%;
+}
+
+.rounded-carousel-section {
+  border-radius: 20px; 
+  overflow: hidden; 
+}
+
+
+ .categoria-container {
+  background-color: #212529; 
+  border-radius: 15px; 
+  color: white; 
+  padding: 20px; 
+  margin-top: 20px;
+}
+.categoria {
+  cursor: pointer;
+  margin-right: 10px;
+  color: #ffffff;
+}
+.categoria:hover {
+  text-decoration: underline;
+}
+.card-img-left {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-content {
+  padding-left: 15px;
+}
+.card {
+  background-color: #212529;
+  margin-bottom: 15px;
+}
+        

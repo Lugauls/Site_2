@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensine Conosco - Flex Cursos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .header {
+            background: #212529;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .btn-primary {
+            background-color: #212529; /* Primary button color */
+            border-color: #212529; /* Primary button border color */
+        }
+    </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="/FlexCursos/pages/principal.html">FlexCursos</a>
+  
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-light"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="/FlexCursos/pages/principal.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/FlexCursos/pages/cursos.html">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Sobre Nós</a>
+          </li>
+        </ul>
+        
+        <form class="d-flex me-auto">
+          <input class="form-control me-2 search-box" type="search" placeholder="Buscar cursos" aria-label="Buscar">
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+        <div id="userSection">
+          <button id="loginButton" class="btn btn-outline-light btn-login" type="button">Login</button>
+          <button id="signupButton" class="btn btn-outline-light" type="button" hrf>Inscrever-se</button>
+        </div>
+      </div>
+    </div>
+</nav>
+
+<div class="header">
+    <h1>Ensine Conosco</h1>
+    <p>Torne-se um instrutor na Flex Cursos e compartilhe seu conhecimento com o mundo.</p>
+</div>
+
+<div class="container content">
+    <h2>Por Que Ensinar na Flex Cursos?</h2>
+    <p>A Flex Cursos oferece uma plataforma inovadora que permite aos instrutores alcançar milhões de alunos em todo o mundo. Aqui, você pode compartilhar seu conhecimento, inspirar alunos e ganhar dinheiro.</p>
+
+    <h2>Como Começar?</h2>
+    <p>Se você é apaixonado por ensinar e possui conhecimento especializado em áreas demandadas, nós queremos conhecê-lo. Começar é fácil:</p>
+    <ul>
+        <li>Registre-se como instrutor</li>
+        <li>Prepare seu curso e envie para aprovação</li>
+        <li>Comece a ensinar e a ganhar</li>
+    </ul>
+
+    <h2>Pronto para Começar?</h2>
+    <p>Se você está pronto para fazer a diferença e criar um impacto positivo na vida das pessoas, nós estamos aqui para ajudá-lo a alcançar seus objetivos.</p>
+    <button onclick="window.location.href='https://www.udemy.com/teaching/?ref=teach_header';" class="btn btn-primary">Cadastre-se para Ensinar</button>
+</div>
+
+<footer class="footer-background bg-dark bg-opacity-25  pt-5 pb-4">
+  <div class="container">
+      <div class="row">
+          
+          <div class="col-md-3 mb-3">
+              <h6><strong>Sobre</strong></h6>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="footer-links">Nossa História</a></li>
+                  <li><a href="#" class="footer-links">Trabalhe Conosco</a></li>
+              </ul>
+          </div>
+          
+          <div class="col-md-3 mb-3">
+              <h6><strong>Cursos</strong></h6>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="footer-links">Browse Cursos</a></li>
+                  <li><a href="#" class="footer-links">Categorias</a></li>
+              </ul>
+          </div>
+          
+          <div class="col-md-3 mb-3">
+              <h6><strong>Suporte</strong></h6>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="footer-links">Centro de Ajuda</a></li>
+                  <li><a href="#" class="footer-links">Contato</a></li>
+              </ul>
+          </div>
+         
+          <div class="col-md-3 mb-3">
+              <h6><strong>Legal</strong></h6>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="footer-links">Termos de Uso</a></li>
+                  <li><a href="#" class="footer-links">Política de Privacidade</a></li>
+              </ul>
+          </div>
+      </div>
+      
+      <div class="row">
+          <div class="col-12 text-center mt-3">
+              <p class="text-muted small mb-0">&copy; 2024 FlexCursos. Todos os direitos reservados.</p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="/FlexCursos/script/usuario.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

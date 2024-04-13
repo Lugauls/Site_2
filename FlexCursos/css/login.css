@@ -1,0 +1,40 @@
+:root{
+    --black: #090809;
+    --primary: #d6f8d3;
+    --secondary: #9ddef8;
+    --light: #F4796B;
+    --other1: #F4998D;
+    --other: #f5b3aa;
+    --bg-color: #f4cac5;
+    --bg-escurinha: #201b2c
+}
+
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+.form-control:focus {
+    border-color: #495057;
+    box-shadow: none;
+}
+.btn-primary {
+    background-color: #212529;
+    border-color: #212529;
+}
+.btn-primary:hover {
+    background-color: #1b1e21;
+    border-color: #1b1e21;
+}
