@@ -10,7 +10,7 @@ document.getElementById('signupForm')?.addEventListener('submit', function(e) {
 
     localStorage.setItem(username, JSON.stringify({ password }));
     alert('Cadastro bem-sucedido!');
-    window.location.href = '/FlexCursos/pages/login.html';
+    window.location.href = './FlexCursos/pages/login.html';
 });
 
 
@@ -23,7 +23,7 @@ document.getElementById('loginForm')?.addEventListener('submit', function(e) {
     if (userData && userData.password === password) {
         localStorage.setItem('loggedUser', username);
         alert('Login bem-sucedido!');
-        window.location.href = '/index.html';
+        window.location.href = './index.html';
     } else {
         alert('Nome de usuário ou senha incorretos.');
     }
@@ -49,12 +49,12 @@ function updateNavbar() {
 
 
 function redirectToLogin() {
-    window.location.href = '/FlexCursos/pages/login.html';
+    window.location.href = './FlexCursos/pages/login.html';
 }
 
 
 function redirectToSignup() {
-    window.location.href = '/FlexCursos/pages/inscrever.html';
+    window.location.href = './FlexCursos/pages/inscrever.html';
 }
 
 
