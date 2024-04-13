@@ -1,4 +1,3 @@
-// Evento para lidar com o cadastro
 document.getElementById('signupForm')?.addEventListener('submit', function(e) {
     e.preventDefault();
     const username = document.getElementById('signupUsername').value;
@@ -14,7 +13,7 @@ document.getElementById('signupForm')?.addEventListener('submit', function(e) {
     window.location.href = '/FlexCursos/pages/login.html';
 });
 
-// Evento para lidar com o login
+
 document.getElementById('loginForm')?.addEventListener('submit', function(e) {
     e.preventDefault();
     const username = document.getElementById('loginUsername').value;
@@ -30,7 +29,7 @@ document.getElementById('loginForm')?.addEventListener('submit', function(e) {
     }
 });
 
-// Atualiza a navbar com base no estado de autenticação
+
 function updateNavbar() {
     const userSection = document.getElementById('userSection');
     const loggedUser = localStorage.getItem('loggedUser');
@@ -48,22 +47,22 @@ function updateNavbar() {
     }
 }
 
-// Redireciona para a página de login
+
 function redirectToLogin() {
     window.location.href = '/FlexCursos/pages/login.html';
 }
 
-// Redireciona para a página de cadastro
+
 function redirectToSignup() {
     window.location.href = '/FlexCursos/pages/inscrever.html';
 }
 
-// Simula o processo de logout
+
 function logout() {
     localStorage.removeItem('loggedUser');
     updateNavbar();
     window.location.reload();
 }
 
-// Inicializa a navbar ao carregar a página
+
 document.addEventListener('DOMContentLoaded', updateNavbar);

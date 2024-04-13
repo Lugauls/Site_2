@@ -40,14 +40,14 @@
 }
 
 .footer-background {
-  background-color: #f5f5f5; /* Cor de fundo semelhante à da Udemy */
+  background-color: #f5f5f5; 
 }
 .footer-links {
-  color: #007791; /* Cor de link semelhante à da Udemy */
+  color: #007791; 
 }
 .footer-links:hover {
   text-decoration: none;
-  color: #00566c; /* Escurece um pouco ao passar o mouse */
+  color: #00566c; 
 }
 
 .esmeralda{
