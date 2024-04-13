@@ -10,7 +10,7 @@ let cursos = {
         
     ],
     negocios: [
-        { nome: 'Curso de Marketing Digital', descricao: 'Introdução ao Marketing Digital.', preco: 'R$ 200,00', imagem: '.FlexCursos/images/marketing-digital.png', udemy:'https://www.udemy.com/share/101Wtu3@WCLzXF1b4TX9a_V7Rt65lK7tKmV_Uame4YhhPPDvm4e7ZZNl-6ckxzroZahJYbib/' },
+        { nome: 'Curso de Marketing Digital', descricao: 'Introdução ao Marketing Digital.', preco: 'R$ 200,00', imagem: '../images/marketing-digital.png', udemy:'https://www.udemy.com/share/101Wtu3@WCLzXF1b4TX9a_V7Rt65lK7tKmV_Uame4YhhPPDvm4e7ZZNl-6ckxzroZahJYbib/' },
 
         { nome: 'Curso de Pesquisa de mercado', descricao: 'Aprenda a fazer uma pesquisa aprofundada', preco: 'R$ 160,00', imagem: './FlexCursos/images/Mercado.png', udemy:'https://www.udemy.com/share/1027sS3@skGqQTMpTb3MeqyTdJhbmgFMPkhzfLp7UgwAScpqyulmiu81Rj3FvHezO180u8wd/' },
 
