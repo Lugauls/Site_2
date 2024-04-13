@@ -23,7 +23,7 @@ document.getElementById('loginForm')?.addEventListener('submit', function(e) {
     if (userData && userData.password === password) {
         localStorage.setItem('loggedUser', username);
         alert('Login bem-sucedido!');
-        window.location.href = '/FlexCursos/pages/principal.html';
+        window.location.href = '/principal.html';
     } else {
         alert('Nome de usuário ou senha incorretos.');
     }
