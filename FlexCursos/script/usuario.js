@@ -49,12 +49,12 @@ function updateNavbar() {
 
 
 function redirectToLogin() {
-    window.location.href = './login.html';
+    window.location.href = '../../FlexCursos/pages/login.html';
 }
 
 
 function redirectToSignup() {
-    window.location.href = './inscrever.html';
+    window.location.href = '../../FlexCursos/pages/inscrever.html';
 }
 
 
