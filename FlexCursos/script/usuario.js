@@ -10,7 +10,7 @@ document.getElementById('signupForm')?.addEventListener('submit', function(e) {
 
     localStorage.setItem(username, JSON.stringify({ password }));
     alert('Cadastro bem-sucedido!');
-    window.location.href = './FlexCursos/pages/login.html';
+    window.location.href = '../pages/login.html';
 });
 
 
@@ -49,12 +49,12 @@ function updateNavbar() {
 
 
 function redirectToLogin() {
-    window.location.href = './FlexCursos/pages/login.html';
+    window.location.href = '../pages/login.html';
 }
 
 
 function redirectToSignup() {
-    window.location.href = './FlexCursos/pages/inscrever.html';
+    window.location.href = '../pages/inscrever.html';
 }
 
 
