@@ -54,7 +54,7 @@ function redirectToLogin() {
 
 
 function redirectToSignup() {
-    window.location.href = '../.././FlexCursos/pages/inscrever.html';
+    window.location.href = 'https://lugauls.github.io/Site_2/FlexCursos/pages/inscrever.html';
 }
 
 
