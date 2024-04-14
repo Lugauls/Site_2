@@ -49,7 +49,7 @@ function updateNavbar() {
 
 
 function redirectToLogin() {
-    window.location.href = '../.././FlexCursos/pages/login.html';
+    window.location.href = 'https://lugauls.github.io/Site_2/FlexCursos/pages/login.html';
 }
 
 
